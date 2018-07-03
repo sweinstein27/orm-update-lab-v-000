@@ -11,5 +11,10 @@ class Student
     @grade = grade
   end
 
+  def create_table
+    CREATE TABLE students (
+    id INTEGER PRIMARY KEY
+    )
+
 
 end
